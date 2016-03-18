@@ -8,6 +8,7 @@ $(document).ready(function(){
 
 });
 
+//Listen for span on click event, append to ul a li with text and event stamp.
 $("span").on("click", function handleClick(event) {
  $("ul").append("<li> "+ $(this).text() + " at " + event.timeStamp +"</li>");
 });
