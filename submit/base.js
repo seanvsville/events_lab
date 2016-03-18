@@ -4,4 +4,10 @@ $(document).ready(function(){
 
   $("#time").text( Date.now() );
 
-})
+});
+
+$("submit").submit(function (event) {
+  event.preventDefault();
+}
+
+);
