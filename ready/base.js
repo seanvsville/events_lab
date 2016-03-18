@@ -19,3 +19,6 @@ $("document").ready(function() {
     event.preventDefault();
     $("h1").text("Go");
 });
+
+// Listen in on entire website or html document, when ready (or when page loads)
+// prevent default or page loading and instead replace h1 text with Go
